@@ -1,0 +1,102 @@
+form{
+    width: 260px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 60px;
+}
+h5{
+    font-size: 30px;
+    font-family: Open Sans;
+    font-style: bold;
+    color: #3b4754;
+    width:250px;
+    height: 10px;
+}
+.p{
+    width: 359px;
+    font-size: 15px;
+    font-family: Open Sans;
+    font-style: regular;
+    color: #798da3;
+    
+}
+#dik{
+    
+    width: 400px;
+    height: 440px;
+    background-color:#eff0f4;
+    color:#c9d3dd;
+    font-size: rgb(145, 142, 142);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: regular;
+    line-height: 18px;
+    border: 1px solid ;
+    padding-right: 15px;
+    padding-left: 20px;
+}
+
+h4{
+    font-family: Open sans;
+    font-size: 22px;
+    color:#3b4754;
+    font-style: bold;
+    padding: 10px;
+}
+.c{
+    font-family: Open Sans;
+    font-style: Regular;
+    font-size: 13px,0;
+    color:#798da3;
+    
+    
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"]
+{
+    width:90%;
+    padding: 5px;
+    margin-left: 5px;
+}
+textarea{
+    min-height:42px;
+    max-height: 200px;
+    height: 60px;
+    width: 90%;
+    
+}
+label{
+    
+    margin-left:33%;
+    font-family: Open Sans;
+    font-style: Bold;
+    font-size: 11px;
+    color:#3b4754;
+    width: 30px;
+    height: 14px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    font-family: open Sans;
+    font-style: bold;
+    font-size: 10px;
+    color:white;
+    background-color: #29323d;
+    margin-left: 130px;
+    margin-top: 15px;
+}
+input[type="text"]::placeholder,
+input[type="tel"]::placeholder,
+input[type="email"]::placeholder{
+    color:#798da3;
+    text-align: center;
+}
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+textarea:focus{
+    border-color:rgb(136, 136, 136);
+    outline: none;
+} 
